@@ -1,0 +1,14 @@
+{
+  "budget": 2,
+  "size": 12,
+  "range_error_code": "E_RANGE",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "bits": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "set", "from": 0, "to": 3 },
+    { "id": 2, "kind": "set", "from": 5, "to": 8 },
+    { "id": 3, "kind": "clear", "from": 6, "to": 7 },
+    { "id": 4, "kind": "set", "from": 7, "to": 10 },
+    { "id": 5, "kind": "clear", "from": 0, "to": 1 }
+  ]
+}
